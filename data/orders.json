@@ -1,0 +1,67 @@
+{
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "customer_id": "C001",
+      "status": "shipped",
+      "placed_at": "2026-05-28",
+      "items": [
+        { "sku": "LAPTOP-PRO-15", "name": "ProBook Laptop 15\"", "qty": 1, "price": 1299.99 }
+      ],
+      "tracking": "1Z999AA10123456784",
+      "carrier": "UPS",
+      "estimated_delivery": "2026-06-04"
+    },
+    {
+      "id": "ORD-1002",
+      "customer_id": "C002",
+      "status": "processing",
+      "placed_at": "2026-06-01",
+      "items": [
+        { "sku": "HEADPHONES-BT", "name": "SoundMax Bluetooth Headphones", "qty": 1, "price": 89.99 },
+        { "sku": "CABLE-USB-C", "name": "USB-C Charging Cable 2m", "qty": 2, "price": 12.99 }
+      ],
+      "tracking": null,
+      "carrier": null,
+      "estimated_delivery": "2026-06-05"
+    },
+    {
+      "id": "ORD-1003",
+      "customer_id": "C003",
+      "status": "delivered",
+      "placed_at": "2026-05-20",
+      "items": [
+        { "sku": "MONITOR-4K-27", "name": "UltraView 27\" 4K Monitor", "qty": 1, "price": 549.00 }
+      ],
+      "tracking": "1Z999AA10987654321",
+      "carrier": "UPS",
+      "estimated_delivery": "2026-05-25",
+      "delivered_at": "2026-05-24"
+    },
+    {
+      "id": "ORD-1004",
+      "customer_id": "C001",
+      "status": "return_requested",
+      "placed_at": "2026-05-10",
+      "items": [
+        { "sku": "KEYBOARD-MECH", "name": "MechaType Pro Keyboard", "qty": 1, "price": 149.00 }
+      ],
+      "tracking": "1Z999AA10555666777",
+      "carrier": "UPS",
+      "return_reason": "Defective — keys sticking",
+      "return_requested_at": "2026-06-01"
+    },
+    {
+      "id": "ORD-1005",
+      "customer_id": "C004",
+      "status": "cancelled",
+      "placed_at": "2026-05-30",
+      "cancelled_at": "2026-05-31",
+      "items": [
+        { "sku": "TABLET-10", "name": "SlateTab 10\" Tablet", "qty": 1, "price": 399.00 }
+      ],
+      "refund_status": "pending",
+      "refund_eta": "2026-06-05"
+    }
+  ]
+}

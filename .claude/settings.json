@@ -1,0 +1,62 @@
+{
+  "mcpServers": {
+    "techstore": {
+      "command": "python3",
+      "args": ["/home/aryan/Work/cc/project/mcp_server/server.py"],
+      "env": {
+        "DATABASE_URL": "postgresql://postgres:localdev@localhost/techstore"
+      }
+    }
+  },
+
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/aryan/Work/cc/project/hooks/log_query.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /home/aryan/Work/cc/project/hooks/guard_tools.py",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/aryan/Work/cc/project/hooks/audit_tool.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/aryan/Work/cc/project/hooks/save_session.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

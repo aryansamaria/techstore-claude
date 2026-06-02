@@ -1,0 +1,40 @@
+{
+  "articles": [
+    {
+      "id": "KB001",
+      "title": "Return & Refund Policy",
+      "tags": ["returns", "refund", "policy", "money back"],
+      "content": "TechStore accepts returns within 30 days of delivery for most items. Items must be in original packaging and undamaged. To initiate a return: (1) Use /escalate or contact support, (2) Receive a prepaid return label via email within 24 hours, (3) Ship the item back, (4) Refund processed within 5-7 business days of receiving the item. Exceptions: Software licenses and opened consumables are non-refundable. Defective items can be returned at any time within the 1-year warranty period."
+    },
+    {
+      "id": "KB002",
+      "title": "Shipping & Delivery Information",
+      "tags": ["shipping", "delivery", "tracking", "fedex", "ups"],
+      "content": "Standard shipping (5-7 business days): Free on orders over $50, $4.99 otherwise. Expedited shipping (2-3 business days): $9.99. Overnight (1 business day): $24.99. Tracking numbers are emailed once the order ships, typically within 1-2 business days of placing the order. Orders placed before 2pm ET on business days ship same day. We ship via UPS and FedEx."
+    },
+    {
+      "id": "KB003",
+      "title": "Warranty Claims",
+      "tags": ["warranty", "defective", "repair", "broken", "malfunction"],
+      "content": "All TechStore products carry a 1-year limited warranty against manufacturing defects. To file a warranty claim: (1) Have your order number and proof of purchase ready, (2) Describe the defect clearly, (3) Support will issue an RMA (Return Merchandise Authorization) number, (4) Ship the defective item to our service center, (5) Repaired or replacement unit ships within 10 business days. Extended warranty (2 additional years) available for $29.99 per item."
+    },
+    {
+      "id": "KB004",
+      "title": "Account & Payment Issues",
+      "tags": ["account", "payment", "billing", "charge", "credit card"],
+      "content": "Accepted payment methods: Visa, Mastercard, Amex, Discover, PayPal, and TechStore Gift Cards. For unauthorized charges, contact your bank first, then reach out to us with the transaction ID. Order charges appear on your statement as 'TECHSTORE INC'. If your card was declined, check: sufficient funds, billing address matches card, card is not expired. For billing disputes over $500, our billing team will contact you within 48 hours."
+    },
+    {
+      "id": "KB005",
+      "title": "Password Reset & Login Help",
+      "tags": ["password", "login", "account", "access", "locked"],
+      "content": "To reset your password: visit techstore.com/reset and enter your email. You'll receive a reset link within 5 minutes (check spam folder). If your account is locked after 5 failed attempts, it unlocks automatically after 30 minutes. For email address changes, contact support with your current email, new email, and order number as verification. Two-factor authentication (2FA) can be enabled in Account Settings."
+    },
+    {
+      "id": "KB006",
+      "title": "Product Compatibility",
+      "tags": ["compatible", "compatibility", "works with", "support", "requirements"],
+      "content": "Before purchasing accessories, check the product page for compatibility notes. For laptops: chargers are model-specific unless listed as universal. For cables: we sell both USB-A and USB-C variants — check your device ports. Headphones with 3.5mm jack work on any device with a headphone port; Bluetooth headphones support A2DP and work with any Bluetooth 4.0+ device. Monitors: HDMI 2.0 supports 4K@60Hz; DisplayPort 1.4 supports 4K@144Hz."
+    }
+  ]
+}

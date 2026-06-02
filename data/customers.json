@@ -1,0 +1,36 @@
+{
+  "customers": [
+    {
+      "id": "C001",
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "tier": "premium",
+      "joined": "2023-01-15",
+      "phone": "+1-555-0101"
+    },
+    {
+      "id": "C002",
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "tier": "standard",
+      "joined": "2024-03-22",
+      "phone": "+1-555-0102"
+    },
+    {
+      "id": "C003",
+      "name": "Carol White",
+      "email": "carol@example.com",
+      "tier": "premium",
+      "joined": "2022-11-08",
+      "phone": "+1-555-0103"
+    },
+    {
+      "id": "C004",
+      "name": "Dan Brown",
+      "email": "dan@example.com",
+      "tier": "standard",
+      "joined": "2025-06-01",
+      "phone": "+1-555-0104"
+    }
+  ]
+}
